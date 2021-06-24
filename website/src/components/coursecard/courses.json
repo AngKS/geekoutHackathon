@@ -1,0 +1,32 @@
+{
+    "courses":[
+        {
+            "course_id": 1,
+            "course_name": "HTML",
+            "tutorial": true,
+            "cheatsheet": true,
+            "color": "html"
+        },
+        {
+            "course_id": 2,
+            "course_name": "Python",
+            "tutorial": true,
+            "cheatsheet": true,
+            "color": "python"
+        },
+        {
+            "course_id": 3,
+            "course_name": "C++",
+            "tutorial": true,
+            "cheatsheet": true,
+            "color": "c"
+        },
+        {
+            "course_id": 4,
+            "course_name": "Javascript",
+            "tutorial": true,
+            "cheatsheet": true,
+            "color": "javascript"
+        }
+    ]
+}

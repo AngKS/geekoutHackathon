@@ -1,0 +1,20 @@
+{
+    "courses":[
+        {
+            "course_id": 1,
+            "course_name": "MIT Computational Thinking Course",
+            "color": "html",
+            "image": ""
+        },
+        {
+            "course_id": 2,
+            "course_name": "Stanford Course",
+            "color": "python"
+        },
+        {
+            "course_id": 3,
+            "course_name": "Ted Talks",
+            "color": "c"
+        }
+    ]
+}

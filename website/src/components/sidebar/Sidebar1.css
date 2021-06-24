@@ -1,0 +1,37 @@
+.wrapper{
+    display: block;
+    display: flex;
+    width: 100%;
+}
+.padding{
+    margin-left:50px ;
+}
+._row{
+    width: 200px;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+.nav-item1{
+    width: 150px;
+}
+.nav-item2{
+    width: 150px;
+}
+.nav-item3{
+    width: 150px;
+}
+.nav-item4{
+    width: 150px;
+}
+.tutorial{
+    font-size: 30px;
+}
+.beginner{
+    font-size: 20px;
+}
+.sidebar-item:hover{
+    background-color: #172e8b;
+}
