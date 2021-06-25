@@ -15,9 +15,9 @@
     transition: all 0.3s;
 }
 .nav-item1{
-    width: 150px;
+    width: 100%;
 }
-.nav-item2{
+/* .nav-item2{
     width: 150px;
 }
 .nav-item3{
@@ -25,11 +25,12 @@
 }
 .nav-item4{
     width: 150px;
-}
+} */
 .tutorial{
     font-size: 30px;
 }
 .beginner{
+    width: 100%;
     font-size: 20px;
 }
 .sidebar-item:hover{
