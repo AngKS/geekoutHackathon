@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import Firstcard from '../getstartedcard/Firstcard'
+import Secondcard from '../getstartedcard/Secondcard'
 
 function GetStarted() {
 
     return (
         <div>
             <Navbar />
-            <Firstcard />
+            <Secondcard />
         </div>
     )
 }

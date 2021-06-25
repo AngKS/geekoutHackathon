@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="site" >
             <Navbar />
-            <div className="content text-center">
+            <div className="home_content text-center">
                 <h1 className="title">Geekies</h1>
                 <div class="row">
                     <div className="col-sm">
