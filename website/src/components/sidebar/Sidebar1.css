@@ -10,8 +10,8 @@
     width: 200px;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
-    color: #fff;
+    background: #cdefe5ff;
+    color: black;
     transition: all 0.3s;
 }
 .nav-item1{
@@ -33,5 +33,5 @@
     font-size: 20px;
 }
 .sidebar-item:hover{
-    background-color: #172e8b;
+    background-color: rgb(91, 182, 155);
 }

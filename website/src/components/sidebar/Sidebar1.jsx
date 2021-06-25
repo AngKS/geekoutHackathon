@@ -27,6 +27,14 @@ function Sidebar1() {
                                 <li className="nav-item4 my-2 sidebar-item">
                                     <a className="nav-link active" href="#positioning">Positioning</a>
                                 </li>
+                                <li className="advanced my-2">
+                                    <a className="advanced text-dark" href="#advanced">Advanced</a>
+                                </li>
+                                <li className="cheatsheet my-2">
+                                    <a className="cheatsheet text-dark" href="#cheatsheet">CheatSheet</a>
+                                </li>
+
+
                             </ul>
                         </nav>
                         
