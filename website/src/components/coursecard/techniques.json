@@ -1,1 +1,10 @@
-
+{
+    "techniques":[
+        {
+            "technique_id": 1,
+            "technique_name": "HTML",
+            "technique": "XXX",
+            "color": "summer"
+        }
+    ]
+}

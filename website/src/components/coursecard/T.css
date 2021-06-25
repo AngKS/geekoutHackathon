@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Raleway&display=swap');
+
+.card-techniques-title{
+    font-size: 40px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.card-technique-body{
+    text-align: center;
+    font-size: 10px;
+}
+.techniquecard{
+    border-radius: 10px;
+}
+.course_btn{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;    
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.placeholder-img{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px ;
+}
