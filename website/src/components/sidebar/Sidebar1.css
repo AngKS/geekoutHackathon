@@ -35,3 +35,9 @@
 .sidebar-item:hover{
     background-color: rgb(91, 182, 155);
 }
+.advanced{
+    font-size: 20px;
+}
+.cheatsheet{
+    font-size: 30px;
+}

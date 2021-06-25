@@ -4,17 +4,19 @@
             "course_id": 1,
             "course_name": "MIT Computational Thinking Course",
             "color": "html",
-            "image": ""
+            "image": "MIT.jpg"
         },
         {
             "course_id": 2,
             "course_name": "Stanford Course",
-            "color": "python"
+            "color": "python",
+            "image": "stanford.jpg"
         },
         {
             "course_id": 3,
             "course_name": "Ted Talks",
-            "color": "c"
+            "color": "c",
+            "image": "ted.jpg"
         }
     ]
 }

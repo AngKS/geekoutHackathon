@@ -12,20 +12,23 @@ function Sidebar1() {
                                 <li className="tutorial my-2">
                                     <a className="tutorial text-dark" href="#tutorials">Tutorials</a>
                                 </li>
+                                <li className="active">
                                 <li className="beginner my-2">
-                                    <a className="beginner text-dark" href="#beginner">Beginners</a>
+                                    <a className="beginner text-dark">Beginners</a>
+                                        <li className="nav-item1 my-2 sidebar-item">
+                                            <a className="nav-link active" href="#intro">Intro</a>
+                                        </li>
+                                        <li className="nav-item2 my-2 sidebar-item">
+                                            <a className="nav-link active" href="#text">Text</a>
+                                        </li>
+                                        <li className="nav-item3 my-2 sidebar-item">
+                                            <a className="nav-link active" href="#formatting">Formatting</a>
+                                        </li>
+                                        <li className="nav-item4 my-2 sidebar-item">
+                                            <a className="nav-link active" href="#positioning">Positioning</a>
+                                        </li>
+                                  
                                 </li>
-                                <li className="nav-item1 my-2 sidebar-item">
-                                    <a className="nav-link active" href="#intro">Intro</a>
-                                </li>
-                                <li className="nav-item2 my-2 sidebar-item">
-                                    <a className="nav-link active" href="#text">Text</a>
-                                </li>
-                                <li className="nav-item3 my-2 sidebar-item">
-                                    <a className="nav-link active" href="#formatting">Formatting</a>
-                                </li>
-                                <li className="nav-item4 my-2 sidebar-item">
-                                    <a className="nav-link active" href="#positioning">Positioning</a>
                                 </li>
                                 <li className="advanced my-2">
                                     <a className="advanced text-dark" href="#advanced">Advanced</a>

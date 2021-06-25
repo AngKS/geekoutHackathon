@@ -8,7 +8,10 @@ function CT(props) {
             <div className={(props.data.color)?(`card bg-${props.data.color}`):("card bg-light")}>
                 <h1 className="card-title">{props.data.course_name}</h1>
                     <div className="card-body">
-                        <img src={(props.data.image)?(`../Images/${props.data.image}`):(placeholder)} className="placeholder-img"/>
+                        <button className="btn btn-default">
+                        <img src={(props.data.image)?(`/Images/${props.data.image}`):(placeholder)} className="placeholder-img"/>
+
+                        </button>
                         </div>
                     </div>
                 </div>
