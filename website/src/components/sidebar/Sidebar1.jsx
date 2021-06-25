@@ -34,7 +34,7 @@ function Sidebar1() {
                                     <a className="advanced text-dark" href="#advanced">Advanced</a>
                                 </li>
                                 <li className="cheatsheet my-2">
-                                    <a className="cheatsheet text-dark" href="#cheatsheet">CheatSheet</a>
+                                    <a className="cheatsheet text-dark" href="http://www.cheat-sheets.org/saved-copy/html-cheat-sheet.png">CheatSheet</a>
                                 </li>
 
 
