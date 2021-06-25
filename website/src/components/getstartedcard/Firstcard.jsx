@@ -2,6 +2,9 @@ import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './cards.css'
 import Lady from "../Images/Lady.png"
+import Girl from "../Images/Claps.png"
+import get_but from "../Images/badge_get.PNG"
+import Cat_1 from "../Images/Cat_1.PNG"
 function Firstcard() {
 
     const [username,setusername] = useState("")
@@ -77,14 +80,10 @@ function Firstcard() {
                 </form>
             </div>}
             {sixth&&<div className={(sixth)?"Getstart_content_big card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">sixth card</h5>
-                <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
-                    {/* <input type="submit" hidden ></input> */}
-                    <i class='fas fa-arrow-circle-right arrow_s' onClick={()=>{
+                <img src={Cat_1} alt="" className="cats" />
+                <form action="" className="Getstarted_title">               
+                   {/* <input type="submit" hidden ></input> */}
+                    <i class='fas fa-arrow-circle-right arrow_c' onClick={()=>{
                     setsixth(!sixth)
                     setseventh(!seventh)
                 }}></i>
@@ -98,21 +97,22 @@ function Firstcard() {
                         (data)=>{setusername(data.target.value)}
                     }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <i class='fas fa-arrow-circle-right arrow' onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow_idk' onClick={()=>{
                     setseventh(!seventh)
                     seteighth(!eighth)
                 }}></i>
                 </form>
             </div>}
             {eighth&&<div className={(eighth)?"Getstart_content_big card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">eighth card</h5>
+                <h5 className="Getstart_title card-title Hello_g">Congratulations!<br/>
+                You have successfully completed the course!<br/>
+                <span className="simple">This badge will be added to your profile!</span><br/>
+                </h5>
+                <img src={get_but} alt="" className="w-25 badger" />
+                <img src={Girl} alt="" className="w-50 girl" />
                 <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <i class='fas fa-arrow-circle-right arrow' ></i>
+                    <Link to="/"><i class='fas fa-arrow-circle-right arrow_g' ></i></Link>
                 </form>
             </div>}
         </div>

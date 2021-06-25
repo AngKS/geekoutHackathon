@@ -75,6 +75,7 @@
     position: relative;
     top: -150px;
     left: 550px;
+    color: #b6d7a8ff;
 }
 
 .arrow_s{
@@ -83,8 +84,27 @@
     position: relative;
     top: -199px;
     left: 550px;
+    color: #b6d7a8ff;
 }
 
+.arrow_c{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top: 50px;
+    left: 550px;
+    color: #b6d7a8ff;
+}
+
+.arrow_g{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top:-500px;
+    left: 550px;
+    text-decoration: none;
+    color: #990000;
+}
 .rose{
     color: #e69138;
     font-family: 'Didact Gothic';
@@ -93,6 +113,12 @@
 .Hello{
     position: relative;
     top:40%;
+    font-family: 'Didact Gothic';
+}
+
+.Hello_g{
+    position: relative;
+    top:20%;
     font-family: 'Didact Gothic';
 }
 
@@ -108,4 +134,23 @@
 
 .simple{
     color: #8365cc;
+}
+
+.cats{
+    position: relative;
+    top: 10%;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.girl{
+    position: relative;
+    top: -300px;
+    left: -280px;
+}
+
+.badger{
+    position: relative;
+    left: 38%;
+    top: 170px;
 }
