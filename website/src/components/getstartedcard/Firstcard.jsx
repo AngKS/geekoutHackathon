@@ -1,7 +1,7 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './cards.css'
-
+import Lady from "../Images/Lady.png"
 function Firstcard() {
 
     const [username,setusername] = useState("")
@@ -26,7 +26,7 @@ function Firstcard() {
             </div>}
 
             {second&&<div className={(second)?"Getstart_content card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">What's your name?</h5>
+                <h5 className="Getstart_title card-title my-3">What's your name?</h5>
                 <form action="" className="Getstarted_title">
                     <label for='fname'></label>
                     <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" required onChange={
@@ -37,55 +37,46 @@ function Firstcard() {
                         setsecond(!second)
                         setthird(!third)
                     }}></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <button className="Getstart_button Next btn btn-lg" onClick={()=>{
                     setsecond(!second)
                     setthird(!third)
-                }}>Submit</button>
+                }}>Next</button>
                 </form>
             </div>}
-            {third&&<div className={(third)?"Getstart_content card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">Third card</h5>
+            {third&&<div className={(third)?"Getstart_content_big card text-center":"d-none"}>
+                <h5 className="Getstart_title card-title Hello">Hello Cody,<br/>I'm <span className="rose">Rose</span>, your coach for today!</h5>
+                <img src={Lady} alt="" className="w-25 pic"/>
                 <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow' onClick={()=>{
                     setthird(!third)
                     setfourth(!fourth)
-                }}>Click to begin</button>
+                }}></i>
                 </form>
             </div>}
-            {fourth&&<div className={(fourth)?"Getstart_content card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">fourth card</h5>
+            {fourth&&<div className={(fourth)?"Getstart_content_big card text-center":"d-none"}>
+                <h5 className="Getstart_title card-title Hello">Today, we'll be going through the<br /> basic of coding!</h5>
+                <img src={Lady} alt="" className="w-25 pic"/>
                 <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow' onClick={()=>{
                     setfourth(!fourth)
                     setfifth(!fifth)
-                }}>Click to begin</button>
+                }}></i>
                 </form>
             </div>}
-            {fifth&&<div className={(fifth)?"Getstart_content card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">fiftth card</h5>
+            {fifth&&<div className={(fifth)?"Getstart_content_big card text-center":"d-none"}>
+            <h5 className="Getstart_title card-title Hello">Coding is <span className="simple">simple</span><br /><br />Imagine a story playing out in your head...</h5>
+                <img src={Lady} alt="" className="w-25 pic_s"/>
                 <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow_s' onClick={()=>{
                     setfifth(!fifth)
                     setsixth(!sixth)
-                }}>Click to begin</button>
+                }}></i>
                 </form>
             </div>}
-            {sixth&&<div className={(sixth)?"Getstart_content card text-center":"d-none"}>
+            {sixth&&<div className={(sixth)?"Getstart_content_big card text-center":"d-none"}>
                 <h5 className="Getstart_title card-title my-5">sixth card</h5>
                 <form action="" className="Getstarted_title">
                     <label for='fname'></label>
@@ -93,13 +84,13 @@ function Firstcard() {
                         (data)=>{setusername(data.target.value)}
                     }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow_s' onClick={()=>{
                     setsixth(!sixth)
                     setseventh(!seventh)
-                }}>Click to begin</button>
+                }}></i>
                 </form>
             </div>}
-            {seventh&&<div className={(seventh)?"Getstart_content card text-center":"d-none"}>
+            {seventh&&<div className={(seventh)?"Getstart_content_big card text-center":"d-none"}>
                 <h5 className="Getstart_title card-title my-5">seventh card</h5>
                 <form action="" className="Getstarted_title">
                     <label for='fname'></label>
@@ -107,13 +98,13 @@ function Firstcard() {
                         (data)=>{setusername(data.target.value)}
                     }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg" onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow' onClick={()=>{
                     setseventh(!seventh)
                     seteighth(!eighth)
-                }}>Click to begin</button>
+                }}></i>
                 </form>
             </div>}
-            {eighth&&<div className={(eighth)?"Getstart_content card text-center":"d-none"}>
+            {eighth&&<div className={(eighth)?"Getstart_content_big card text-center":"d-none"}>
                 <h5 className="Getstart_title card-title my-5">eighth card</h5>
                 <form action="" className="Getstarted_title">
                     <label for='fname'></label>
@@ -121,7 +112,7 @@ function Firstcard() {
                         (data)=>{setusername(data.target.value)}
                     }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <button className="Getstart_button btn btn-lg">Click to begin</button>
+                    <i class='fas fa-arrow-circle-right arrow' ></i>
                 </form>
             </div>}
         </div>
