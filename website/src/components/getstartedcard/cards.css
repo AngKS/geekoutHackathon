@@ -27,8 +27,47 @@
     -webkit-border-radius: 70px;
 }
 
-
 .card-title{
     color: black;
 }
   
+.Getstart_name::placeholder{
+    color:white;
+    font-size: 30px;
+    font-family: 'Didact Gothic';
+}
+
+.Getstart_name{
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    height: 130px;
+    width: 500px;
+    background-color: #b7b7b7ff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    font-family: 'Didact Gothic';
+}
+
+.Getstart_transit{
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
