@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { Link } from 'react-router-dom'
 import txtMessages from "./text.json"
 
@@ -13,9 +13,9 @@ function Messages() {
                 <ul className="nav nav-tabs flex-column">
                     {
                         allMsg.map(item => 
-                            <li className="nav-item">
-                                <Link className="nav-link">{item}</Link>
-                            </li>    
+                            (<li className="nav-item">
+                                <Link className="nav-link" onClick={() => setCurrChat(item)}>{item.ChatName}</Link>
+                            </li> )   
                         )
                     }
                 </ul>

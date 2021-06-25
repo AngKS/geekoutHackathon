@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import Navbar from "../navbar/Navbar"
 import Article from '../articles/Article'
+import Messages from '../messages/Messages'
 
 import profilePic from "../Images/profile.png"
 import Badge from "../Images/badge.png"
@@ -119,6 +120,7 @@ function Profile() {
                                     ) : (
                                         <section>
                                             <h3 className="text-center">Your Messages</h3>
+                                            <Messages />
                                         </section>
                                     )
                                 }
