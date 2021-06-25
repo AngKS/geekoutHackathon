@@ -5,7 +5,7 @@
             "userID": "U01",
             "username": "AKS",
             "date": "24-06-2021",
-            "title": "First Post",
+            "title": "[HOW TO] How to Vertical Align Div?",
             "content": "Doggo ipsum you are doing me the shock big ol pupper very taste wow noodle horse blep you are doing me a frighten, bork porgo lotsa pats. Doggorino smol long water shoob puggorino borkf clouds doge, super chub bork heckin angery woofer many pats. Heckin good boys and girls puggo doggo blop borkdrive, many pats long water shoob puggo smol borking doggo with a long snoot for pats boof, dat tungg tho doggorino shooberino. Heck you are doin me a concern long woofer sub woofer long woofer boof, heckin good boys sub woofer dat tungg tho stop it fren. Thicc heckin pats doing me a frighten smol, big ol puggo heckin good boys, doggo many pats ruff.",
             "link" : "/articlePage"
         },
@@ -14,7 +14,7 @@
             "userID": "U01",
             "username": "AKS",
             "date": "24-06-2021",
-            "title": "Second Post",
+            "title": "My Experience in GeekOut 2021",
             "content": "Doggo ipsum you are doing me the shock big ol pupper very taste wow noodle horse blep you are doing me a frighten, bork porgo lotsa pats. Doggorino smol long water shoob puggorino borkf clouds doge, super chub bork heckin angery woofer many pats. Heckin good boys and girls puggo doggo blop borkdrive, many pats long water shoob puggo smol borking doggo with a long snoot for pats boof, dat tungg tho doggorino shooberino. Heck you are doin me a concern long woofer sub woofer long woofer boof, heckin good boys sub woofer dat tungg tho stop it fren. Thicc heckin pats doing me a frighten smol, big ol puggo heckin good boys, doggo many pats ruff.",
             "link": "/articlePage"
         },
@@ -23,9 +23,27 @@
             "userID": "U01",
             "username": "AKS",
             "date": "24-06-2021",
-            "title": "Third Post",
+            "title": "Anyone programming C?",
             "content": "Doggo ipsum you are doing me the shock big ol pupper very taste wow noodle horse blep you are doing me a frighten, bork porgo lotsa pats. Doggorino smol long water shoob puggorino borkf clouds doge, super chub bork heckin angery woofer many pats. Heckin good boys and girls puggo doggo blop borkdrive, many pats long water shoob puggo smol borking doggo with a long snoot for pats boof, dat tungg tho doggorino shooberino. Heck you are doin me a concern long woofer sub woofer long woofer boof, heckin good boys sub woofer dat tungg tho stop it fren. Thicc heckin pats doing me a frighten smol, big ol puggo heckin good boys, doggo many pats ruff.",
             "link": "/articlePage"
-        }
+        },
+        {
+            "articleID": 4,
+            "userID": "U01",
+            "username": "AKS",
+            "date": "24-06-2021",
+            "title": "How to Git?",
+            "content": "Doggo ipsum you are doing me the shock big ol pupper very taste wow noodle horse blep you are doing me a frighten, bork porgo lotsa pats. Doggorino smol long water shoob puggorino borkf clouds doge, super chub bork heckin angery woofer many pats. Heckin good boys and girls puggo doggo blop borkdrive, many pats long water shoob puggo smol borking doggo with a long snoot for pats boof, dat tungg tho doggorino shooberino. Heck you are doin me a concern long woofer sub woofer long woofer boof, heckin good boys sub woofer dat tungg tho stop it fren. Thicc heckin pats doing me a frighten smol, big ol puggo heckin good boys, doggo many pats ruff.",
+            "link": "/articlePage"
+        },
+        {
+            "articleID": 3,
+            "userID": "U01",
+            "username": "AKS",
+            "date": "24-06-2021",
+            "title": "Help!! I need someone to do Pair-Programming with.",
+            "content": "Doggo ipsum you are doing me the shock big ol pupper very taste wow noodle horse blep you are doing me a frighten, bork porgo lotsa pats. Doggorino smol long water shoob puggorino borkf clouds doge, super chub bork heckin angery woofer many pats. Heckin good boys and girls puggo doggo blop borkdrive, many pats long water shoob puggo smol borking doggo with a long snoot for pats boof, dat tungg tho doggorino shooberino. Heck you are doin me a concern long woofer sub woofer long woofer boof, heckin good boys sub woofer dat tungg tho stop it fren. Thicc heckin pats doing me a frighten smol, big ol puggo heckin good boys, doggo many pats ruff.",
+            "link": "/articlePage"
+        },
     ]
 }

@@ -1,6 +1,6 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Draggable, {DraggableCore} from 'react-draggable'; // Both at the same time
+
 import './cards.css'
 import Lady from "../Images/Lady.png"
 import Girl from "../Images/Claps.png"
