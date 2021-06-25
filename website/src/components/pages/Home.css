@@ -16,11 +16,11 @@
     
 }
 
-.content{
+.home_content{
     /* Layout */
     position: absolute;
     top: 43%;
-    left: 34%;
+    left:33%;
 }
 
 /* Title and Button Formating */
@@ -47,29 +47,25 @@ h5.subtitle{
 }
 
 /* Button styling */
-.btn{
+.button_home{
     /* Layout */
     display: inline-block;
+    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     /* Styling */
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: bold;
     font-family: 'Raleway';
 } 
 
 .Left_btn{
-    /* Layout */
-    position: relative;
-    left:-5%;
     /* Styling */
     background-color: #ffd14e;
 }
 
 .Right_btn{
-    /* Layout */
-    position: relative;
-    left:5%;
+
     /* Styling */
     background-color: #baeca8;
 }

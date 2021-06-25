@@ -7,11 +7,17 @@ function Home() {
     return (
         <div className="site" >
             <Navbar />
-            <div className="content text-center">
+            <div className="home_content text-center">
                 <h1 className="title">Geekies</h1>
-                <Link to="/community"><button className="btn btn-lg button Left_btn">&emsp;Community&emsp;</button></Link>
-                <Link to="/getStarted"><button className="btn btn-lg button Right_btn">&emsp;Get Started&emsp;</button></Link>
-                <h5 className="homePageh5">click to find out more</h5>
+                <div class="row">
+                    <div className="col-sm">
+                    <Link to="/community"><button className="btn btn-lg button_home Left_btn">&emsp;Community&emsp;</button></Link>
+                    </div>
+                    <div className="col-sm">
+                    <Link to="/getStarted"><button className="btn btn-lg button_home Right_btn">&emsp;Get Started&emsp;</button></Link>
+                    </div>
+                </div>
+                <h5 className="subtitle">click to find out more</h5>
             </div>
         </div>
     )

@@ -7,8 +7,11 @@ function Tutorials() {
     return (
         <div>
             <Navbar/>
-            <Sidebar1/>
-            <Intro/>
+            <div className="row">
+            <Sidebar1 className="col-md-4"/>
+            <Intro className="col-md-6"/>
+   
+            </div>
         </div>
     )
 }
