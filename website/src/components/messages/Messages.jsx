@@ -1,16 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import txtMessages from "./text.json"
 
 function Messages() {
 
     let allMsg = txtMessages.messages.privateChats
+    const [currChat, setCurrChat] = useState(allMsg[0])
 
     return (
         <div class="row">
             <div className="col-md-3">
                 <ul className="nav nav-tabs flex-column">
                     {
-                        allMsg.map(item)
+                        allMsg.map(item => 
+                            <li className="nav-item">
+                                <Link className="nav-link">{item}</Link>
+                            </li>    
+                        )
                     }
                 </ul>
             </div>
