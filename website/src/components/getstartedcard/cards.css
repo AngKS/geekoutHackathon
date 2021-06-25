@@ -91,7 +91,7 @@
     cursor: pointer;
     font-size:48px;
     position: relative;
-    top: 50px;
+    top: 70px;
     left: 550px;
     color: #b6d7a8ff;
 }
@@ -139,8 +139,22 @@
 .cats{
     position: relative;
     top: 10%;
-    max-height: 80%;
-    max-width: 80%;
+    left: -5%;
+    max-height: 90%;
+    max-width: 90%;
+}
+.cats2{
+    position: relative;
+    top: 13%;
+    left: 2%;
+    max-height: 85%;
+    max-width: 85%;
+}
+.meow{
+    -webkit-appearance: inherit;
+    padding: 0;
+    border: none;
+    background: none;
 }
 
 .girl{

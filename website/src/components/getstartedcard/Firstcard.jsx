@@ -1,10 +1,12 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Draggable, {DraggableCore} from 'react-draggable'; // Both at the same time
 import './cards.css'
 import Lady from "../Images/Lady.png"
 import Girl from "../Images/Claps.png"
 import get_but from "../Images/badge_get.PNG"
 import Cat_1 from "../Images/Cat_1.PNG"
+import Cat_2 from "../Images/Cat_2.PNG"
 function Firstcard() {
 
     const [username,setusername] = useState("")
@@ -80,24 +82,16 @@ function Firstcard() {
                 </form>
             </div>}
             {sixth&&<div className={(sixth)?"Getstart_content_big card text-center":"d-none"}>
-                <img src={Cat_1} alt="" className="cats" />
-                <form action="" className="Getstarted_title">               
-                   {/* <input type="submit" hidden ></input> */}
-                    <i class='fas fa-arrow-circle-right arrow_c' onClick={()=>{
+                <button className='meow' onClick={()=>{
                     setsixth(!sixth)
                     setseventh(!seventh)
-                }}></i>
-                </form>
+                }}><img src={Cat_1} alt="" className="cats" /></button>
             </div>}
             {seventh&&<div className={(seventh)?"Getstart_content_big card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title my-5">seventh card</h5>
+            <img src={Cat_2} alt="" className="cats2" />
                 <form action="" className="Getstarted_title">
-                    <label for='fname'></label>
-                    <input className="text-center Getstart_name" placeholder="[your name]" type="text" id="fname" name="fname" onChange={
-                        (data)=>{setusername(data.target.value)}
-                    }></input>
                     {/* <input type="submit" hidden ></input> */}
-                    <i class='fas fa-arrow-circle-right arrow_idk' onClick={()=>{
+                    <i class='fas fa-arrow-circle-right arrow_c' onClick={()=>{
                     setseventh(!seventh)
                     seteighth(!eighth)
                 }}></i>
