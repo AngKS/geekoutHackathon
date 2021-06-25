@@ -12,6 +12,8 @@
 }
 
 .Getstart_button{
+    margin: auto;
+    width: 300px;
     color: white;
     background-color: #70cee9ff;
     font-family: 'Didact Gothic';
@@ -49,25 +51,4 @@
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     font-family: 'Didact Gothic';
-}
-
-.Getstart_transit{
-    animation: fadeIn 1s;
-    -webkit-animation: fadeIn 1s;
-    -moz-animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
 }

@@ -8,7 +8,6 @@ import Profile from './components/pages/Profile'
 import ArticlePage from './components/pages/ArticlePage';
 import GetStarted from './components/pages/GetStarted';
 import Tutorials from './components/pages/Tutorials';
-import GetStarted_2 from './components/pages/GetStarted_2'
 
 function App() {
 
@@ -25,7 +24,6 @@ function App() {
           <Route path="/getStarted" exact component={GetStarted} />
           <Route path="/profile" exact component={Profile} />
           <Route path="/tutorials" exact component={Tutorials} />
-          <Route path="/getStarted_2" exact component={GetStarted_2} />
         </Switch>
       </Router>
     </div>
