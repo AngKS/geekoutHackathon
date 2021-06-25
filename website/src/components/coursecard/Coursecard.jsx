@@ -9,12 +9,12 @@ function Coursecard(props) {
                 <h1 className="card-title">{props.data.course_name}</h1>
                     <div className="card-body">
                         {
-                            (props.data.tutorial) ? (<Link className="btn btn-primary" to='/tutorials'>Tutorial</Link>) : (<div></div>)
+                            (props.data.tutorial) ? (<Link className="btn btn-primary course_btn" to='/tutorials'>Tutorial</Link>) : (<div></div>)
                             }
                             <br></br>
                             <br></br>
                             {
-                                (props.data.cheatsheet) ? (<Link className="btn btn-primary" to='/CheatSheet'>CheatSheet</Link>) : (<div></div>)
+                                (props.data.cheatsheet) ? (<Link className="btn btn-primary course_btn" to='/CheatSheet'>CheatSheet</Link>) : (<div></div>)
                             }
                         </div>
                     </div>
