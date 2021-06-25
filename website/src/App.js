@@ -8,6 +8,7 @@ import Profile from './components/pages/Profile'
 import ArticlePage from './components/pages/ArticlePage';
 import GetStarted from './components/pages/GetStarted';
 import Tutorials from './components/pages/Tutorials';
+import Cheatsheet from './components/pages/Cheatsheet';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/getStarted" exact component={GetStarted} />
           <Route path="/profile" exact component={Profile} />
           <Route path="/tutorials" exact component={Tutorials} />
+          <Route path="/cheatsheet" exact component={Cheatsheet}/>
         </Switch>
       </Router>
     </div>

@@ -4,19 +4,22 @@
             "course_id": 1,
             "course_name": "MIT Computational Thinking Course",
             "color": "html",
-            "image": "MIT.jpg"
+            "image": "MIT.jpg",
+            "website":"https://ocw.mit.edu/index.htm"
         },
         {
             "course_id": 2,
             "course_name": "Stanford Course",
             "color": "python",
-            "image": "stanford.jpg"
+            "image": "stanford.jpg",
+            "website": "https://online.stanford.edu/free-courses"
         },
         {
             "course_id": 3,
             "course_name": "Ted Talks",
             "color": "c",
-            "image": "ted.jpg"
+            "image": "ted.jpg",
+            "website":"https://www.ted.com/talks?sort=relevance&topics%5B%5D=Technology&q=programming"
         }
     ]
 }
