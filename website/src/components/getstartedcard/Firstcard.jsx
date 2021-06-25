@@ -47,7 +47,7 @@ function Firstcard() {
                 </form>
             </div>}
             {third&&<div className={(third)?"Getstart_content_big card text-center":"d-none"}>
-                <h5 className="Getstart_title card-title Hello">Hello Cody,<br/>I'm <span className="rose">Rose</span>, your coach for today!</h5>
+                <h5 className="Getstart_title card-title Hello">Hello {username ? username : "user"},<br/>I'm <span className="rose">Rose</span>, your coach for today!</h5>
                 <img src={Lady} alt="" className="w-25 pic"/>
                 <form action="" className="Getstarted_title">
                     {/* <input type="submit" hidden ></input> */}
