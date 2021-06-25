@@ -58,7 +58,8 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
-                                Profile
+                                {/* Profile */}
+                                <i className="fas fa-user-circle fa-2x" />
                             </Link>
                         </li>
                         

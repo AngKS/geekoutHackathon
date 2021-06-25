@@ -8,10 +8,12 @@ function Post(props) {
     }
 
     return (
-        <div className="card p-2">
-            <Link className="card-title" to="/articlePage" onClick={() => addToLocalStorage(props.data.articleID)}><h5 className=" text-dark">{props.data.title}</h5></Link>
-            <i className="text-muted">{props.data.date} by {props.data.username}</i>
-            <p>{props.data.content}</p>
+        <div className="card p-3 my-3">
+            <div className="d-flex justify-content-between">
+                <Link className="card-title" to="/articlePage" onClick={() => addToLocalStorage(props.data.articleID)}><h4 className=" text-dark">{props.data.title}</h4></Link>
+                <i className="text-muted">{props.data.date} by {props.data.username}</i>
+            </div>
+            <p className="text-left">{props.data.content}</p>
         </div>
     )
 }
